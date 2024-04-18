@@ -1,0 +1,141 @@
+######################  Inicio de Verificación  ###############################################
+                                                                                             
+Fecha y Hora =         2024-02-15:08:31:10
+Nombre del Servidor =  bogbcpjeapb01
+                                                           
+######################  Listado de usuarios en el sistema #####################################
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/cache/rpcbind:/sbin/nologin
+rtkit:x:499:497:RealtimeKit:/proc:/sbin/nologin
+avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
+abrt:x:173:173::/etc/abrt:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+saslauth:x:498:76:Saslauthd user:/var/empty/saslauth:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+pulse:x:497:495:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+oprofile:x:16:16:Special user account to be used by OProfile:/home/oprofile:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+admincmovil:x:500:500:Usuario Administrador Infraestructura:/home/admincmovil:/bin/bash
+monitor:x:501:501:Usuario Monitor Infraestructura:/home/monitor:/bin/bash
+app:x:502:502::/home/app:/bin/bash
+jboss:x:503:503::/home/jboss:/bin/bash
+mom:x:504:501:cuenta de monitoreo, Solicitud 1257218:/home/mom:/bin/bash
+aunixspd:x:511:511:Cuenta tecnica - OC 2105778:/home/aunixspd:/bin/bash
+pamunixspd28032019:x:515:515:OC_2218122:/home/pamunixspd28032019:/bin/bash
+devops:x:516:516:Usuario Ansible:/home/devops:/bin/bash
+pamubspd:x:517:517:Usuario PAM contingencia OC 2358954:/home/pamubspd:/bin/bash
+#ljpalaciv:x:522:522:Jader Andres Palacio Villada - OC 2460825 :/home/ljpalaciv:/bin/bash
+#lgsagarci:x:523:523:Jhon Sanchez - Unix:/home/lgsagarci:/bin/bash
+robsocrm:x:527:528:Cuenta tecnica-OC2609479:/home/robsocrm:/bin/bash
+uxpr122220:x:529:530:Cuenta Tecnica - OC2894918:/home/uxpr122220:/bin/bash
+pcrpspd121120:x:530:531:OC-2879112-Cuentas Tecnica:/home/pcrpspd121120:/bin/bash
+ansgest:x:531:532:Cuenta Tecnica Usuario Ansible OC 2953587:/home/ansgest:/bin/bash
+                                                           
+La CANTIDAD de usuarios que se tiene en el sistema es =  42
+                                                           
+######################  Listado de grupos en el sistema #######################################
+root:x:0:
+bin:x:1:bin,daemon
+daemon:x:2:bin,daemon
+sys:x:3:bin,adm
+adm:x:4:adm,daemon
+tty:x:5:
+disk:x:6:
+lp:x:7:daemon
+mem:x:8:
+kmem:x:9:
+wheel:x:10:root
+mail:x:12:mail,postfix
+man:x:15:
+video:x:39:
+dip:x:40:
+ftp:x:50:
+lock:x:54:
+audio:x:63:
+nobody:x:99:
+users:x:100:
+dbus:x:81:
+utmp:x:22:
+utempter:x:35:
+desktop_admin_r:x:499:
+desktop_user_r:x:498:
+floppy:x:19:
+vcsa:x:69:
+rpc:x:32:
+rtkit:x:497:
+avahi-autoipd:x:170:
+abrt:x:173:
+cdrom:x:11:
+tape:x:33:
+dialout:x:18:
+rpcuser:x:29:
+nfsnobody:x:65534:
+haldaemon:x:68:haldaemon
+gdm:x:42:
+wbpriv:x:88:
+ntp:x:38:
+cgred:x:496:
+saslauth:x:76:
+postdrop:x:90:
+postfix:x:89:
+pulse:x:495:
+pulse-access:x:494:
+fuse:x:493:
+sshd:x:74:
+stapusr:x:156:
+stapsys:x:157:
+stapdev:x:158:
+oprofile:x:16:
+tcpdump:x:72:
+slocate:x:21:
+admincmovil:x:500:admincmovil
+monitor:x:501:monitor
+app:x:502:
+jboss:x:503:
+aunixspd:x:511:
+pamunixspd28032019:x:515:
+devops:x:516:
+pamubspd:x:517:
+ljpalaciv:x:522:
+lgsagarci:x:523:
+admon:x:527:lgsagarci
+robsocrm:x:528:
+uxpr122220:x:530:
+pcrpspd121120:x:531:
+ansgest:x:532:
+tm_dsa:x:533:
+                                                           
+La CANTIDAD de grupos que se tiene en el sistema es =  70
+                                                           
+######################  Listado de usuarios con permisos de sudo ##############################
+root
+robsocrm
+aunixspd
+pamunixspd28032019
+robsocrm
+uxpr122220
+pcrpspd121120
+admincmovil
+devops
+app
+jboss
+pamubspd
+ansgest
+                                                           
+La CANTIDAD usuarios que tienen permisos de sudo es =  13
